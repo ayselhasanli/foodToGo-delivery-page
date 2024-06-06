@@ -1,0 +1,70 @@
+.navbar {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.navbar .logo {
+  width: 12rem;
+}
+
+.navbar .navbar-menu {
+  display: flex;
+  gap: 2rem;
+  color: var(--light-purple);
+}
+
+.navbar .navbar-menu li {
+  cursor: pointer;
+}
+
+.navbar .navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.navbar button {
+  background-color: transparent;
+  font-size: 1.6rem;
+  color: var(--light-purple);
+  border: none;
+  outline: none;
+}
+
+.navbar .navbar-right .sign-in-btn {
+  border: 1px solid var(--orange);
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  transition: var(--transition);
+}
+
+.navbar .navbar-right .sign-in-btn:hover {
+  background-color: var(--orange);
+  color: var(--white);
+}
+
+.navbar .navbar-menu .active {
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid var(--light-purple);
+}
+
+.navbar .navbar-right i {
+  color: var(--light-purple);
+}
+
+.navbar .navbar-right .navbar-basket-icon {
+  position: relative;
+}
+
+.navbar .navbar-right .navbar-basket-icon .dot {
+  position: absolute;
+  min-width: 1rem;
+  min-height: 1rem;
+  background-color: var(--orange);
+  border-radius: 0.5rem;
+  top: -0.8rem;
+  right: -0.8rem;
+}
