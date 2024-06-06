@@ -1,0 +1,51 @@
+.explore-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.explore-menu h1 {
+  color: var(--dark-gray);
+  font-weight: 500;
+}
+
+.explore-menu .explore-menu-text p {
+  max-width: 60%;
+  color: var(--dark-gray);
+}
+
+.explore-menu .explore-menu-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  text-align: center;
+  margin: 2rem 0;
+  overflow-x: scroll;
+}
+
+.explore-menu .explore-menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+.explore-menu .explore-menu-list .menu-list-item img {
+  width: 7.5vw;
+  min-width: 8rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: var(--transition);
+}
+
+.explore-menu .explore-menu-list .menu-list-item p {
+  margin-top: 1rem;
+  color: var(--gray);
+  font-size: max(1.4vw, 1.6rem);
+  cursor: pointer;
+}
+
+.explore-menu hr {
+  margin: 1rem 0;
+  height: 0.2rem;
+  background-color: var(--light-gray);
+  border: none;
+}

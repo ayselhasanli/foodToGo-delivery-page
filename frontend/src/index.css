@@ -19,7 +19,9 @@ body {
   --orange: #f9bb4e;
   --light-purple: #49557e;
   --white: #ffffff;
+  --light-gray: #e2e2e2;
   --gray: #747474;
+  --dark-gray: #262626;
   --transition: 0.3s ease;
 }
 
@@ -32,8 +34,12 @@ ul {
   list-style: none;
 }
 
+h1{
+  font-size: 3.4rem;
+}
+
 h2{
-  font-size: 3.2rem;
+  font-size: 3.0rem;
 }
 
 p{

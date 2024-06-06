@@ -21,7 +21,7 @@
 .header .header-content h2 {
   font-weight: 500;
   color: var(--white);
-  font-size: max(7.5rem, 2.2rem);
+  font-size: max(4.5rem, 2.2rem);
 }
 
 .header .header-content p {
