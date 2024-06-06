@@ -43,9 +43,15 @@
   cursor: pointer;
 }
 
+.explore-menu .explore-menu-list .menu-list-item .active {
+  border: 4px solid var(--orange);
+  padding: 0.2rem;
+}
+
 .explore-menu hr {
   margin: 1rem 0;
   height: 0.2rem;
   background-color: var(--light-gray);
   border: none;
 }
+
