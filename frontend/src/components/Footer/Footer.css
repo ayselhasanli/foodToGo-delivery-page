@@ -71,3 +71,15 @@
   font-size: 1.3rem;
   padding-bottom: 2rem;
 }
+
+@media screen and (max-width: 750px){
+  .footer .footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  .footer .footer-copyright{
+    text-align: center;
+  }
+}

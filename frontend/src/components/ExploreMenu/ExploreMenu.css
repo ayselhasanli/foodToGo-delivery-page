@@ -55,3 +55,9 @@
   border: none;
 }
 
+@media screen and(max-width: 1050px) {
+  .explore-menu .explore-menu-text p {
+    max-width: 100%;
+    font-size: 1.4rem;
+  }
+}
