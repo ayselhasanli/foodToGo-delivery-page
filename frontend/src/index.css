@@ -20,8 +20,13 @@ body {
   --light-purple: #49557e;
   --white: #ffffff;
   --light-gray: #e2e2e2;
+  --extra-light-gray: #f7f7f7;
   --gray: #747474;
   --dark-gray: #262626;
+  --light-green: #d4ffd6;
+  --green: #00c414;
+  --light-red: #ffd1d1;
+  --red: #fc2828;
   --transition: 0.3s ease;
 }
 
@@ -48,6 +53,8 @@ p {
 
 button {
   cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
 
 .app {
