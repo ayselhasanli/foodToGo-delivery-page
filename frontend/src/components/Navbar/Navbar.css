@@ -13,7 +13,7 @@
 .navbar .navbar-menu {
   display: flex;
   gap: 2rem;
-  color: var(--light-purple);
+  color: var(--dark-gray);
 }
 
 .navbar .navbar-menu li {
@@ -29,7 +29,7 @@
 .navbar button {
   background-color: transparent;
   font-size: 1.6rem;
-  color: var(--light-purple);
+  color: var(--dark-gray);
   border: none;
   outline: none;
 }
@@ -48,11 +48,11 @@
 
 .navbar .navbar-menu .active {
   padding-bottom: 0.2rem;
-  border-bottom: 2px solid var(--light-purple);
+  border-bottom: 2px solid var(--dark-gray);
 }
 
 .navbar .navbar-right i {
-  color: var(--light-purple);
+  color: var(--dark-gray);
 }
 
 .navbar .navbar-right .navbar-basket-icon {
