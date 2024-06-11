@@ -8,12 +8,12 @@ const Navbar = ({setShowLogin}) => {
 
   return (
     <div className="navbar">
-      <a href="">
+      <Link to="/">
         <img src={assets.logo} alt="" className="logo" />
-      </a>
+      </Link>
       <ul className="navbar-menu">
         <Link
-        to="/"
+          to="/"
           onClick={() => setMenu("home")}
           className={menu === "home" ? "active" : ""}
         >
@@ -47,11 +47,15 @@ const Navbar = ({setShowLogin}) => {
         </button>
         <div className="navbar-basket-icon">
           <button>
-            <i className="fa-solid fa-basket-shopping"></i>
+            <Link to='/cart'>
+              <i className="fa-solid fa-basket-shopping"></i>
+            </Link>
           </button>
           <div className="dot"></div>
         </div>
-        <button onClick={() => setShowLogin(true)} className="sign-in-btn">SIGN IN</button>
+        <button onClick={() => setShowLogin(true)} className="sign-in-btn">
+          SIGN IN
+        </button>
       </div>
     </div>
   );
