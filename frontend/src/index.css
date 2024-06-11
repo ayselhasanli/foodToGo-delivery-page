@@ -29,6 +29,7 @@ body {
   --light-red: #ffd1d1;
   --red: #fc2828;
   --black: #000000;
+  --login-popup-bg: #00000090;
   --transition: 0.3s ease;
 }
 
