@@ -7,7 +7,7 @@
 }
 
 .navbar .logo {
-  width: 10rem;
+  width: 13rem;
 }
 
 .navbar .navbar-menu {
@@ -35,14 +35,14 @@
 }
 
 .navbar .navbar-right .sign-in-btn {
-  border: 1px solid var(--orange);
+  border: 1px solid var(--dark-peach);
   padding: 1rem 3rem;
   border-radius: 5rem;
   transition: var(--transition);
 }
 
 .navbar .navbar-right .sign-in-btn:hover {
-  background-color: var(--orange);
+  background-color: var(--dark-peach);
   color: var(--white);
 }
 
@@ -63,7 +63,7 @@
   position: absolute;
   min-width: 1rem;
   min-height: 1rem;
-  background-color: var(--orange);
+  background-color: var(--dark-peach);
   border-radius: 0.5rem;
   top: -0.8rem;
   right: -0.8rem;
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 1050px) {
   .navbar .logo {
-    width: 10rem;
+    width: 11rem;
   }
 
   .navbar .navbar-menu {
@@ -90,7 +90,7 @@
 
 @media screen and (max-width: 900px) {
   .navbar .logo {
-    width: 9rem;
+    width: 10rem;
   }
 
   .navbar .navbar-menu {

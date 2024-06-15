@@ -1,16 +1,16 @@
 import "./Header.css";
+
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id="header">
       <div className="header-content">
         <h2>Order your favourite food here!</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-          aspernatur blanditiis minus eveniet aliquid molestias iste voluptatem
-          architecto, eaque, quis ipsum voluptas, enim doloremque tempore quod!
-          Consequuntur necessitatibus sequi aliquid.
+          Welcome to FoodiA, Where Flavor Meets
+          Convenience! Indulge in a World of Culinary Delights Delivered Right
+          to Your Doorstep. 
         </p>
-        <button>View Menu</button>
+        <a href="#exploreMenu">View Menu</a>
       </div>
     </div>
   );

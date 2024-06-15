@@ -18,6 +18,7 @@ body {
 
 :root {
   --orange: #dc6d00;
+  --dark-peach: #bf5245;
   --light-purple: #49557e;
   --white: #ffffff;
   --light-gray: #e2e2e2;
@@ -50,7 +51,8 @@ h2 {
   font-size: 3rem;
 }
 
-p, b {
+p,
+b {
   font-size: 1.8rem;
 }
 

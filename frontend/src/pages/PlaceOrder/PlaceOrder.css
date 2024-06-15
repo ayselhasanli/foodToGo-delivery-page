@@ -23,7 +23,7 @@
   padding: 1rem;
   border: 1px solid var(--light-gray);
   border-radius: 0.4rem;
-  outline-color: var(--orange);
+  outline-color: var(--dark-peach);
 }
 
 .place-order .place-order-left .multi-fields {

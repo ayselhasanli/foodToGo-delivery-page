@@ -50,7 +50,7 @@
   padding: 1rem;
   border-radius: 0.4rem;
   color: var(--white);
-  background-color: var(--orange);
+  background-color: var(--dark-peach);
   font-size: 1.5rem;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .login-popup p span {
-  color: var(--orange);
+  color: var(--dark-peach);
   font-weight: 500;
   cursor: pointer;
 }
